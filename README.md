@@ -1,3 +1,9 @@
+# Contenedores
+Para levantar la aplicacion de debe crear un contenedor de mysql
+
+docker run -d --name mi-contenedor-mysql -e MYSQL_ROOT_PASSWORD=12345 -e MYSQL_DATABASE=midb -p 3306:3306 mysql:latest
+
+
 # ms-core-datos
 Para poder desplegar en un servidor de aplicaciones wildfly, tomar el archivo pom.xml.dist
 
@@ -18,4 +24,12 @@ public static void main(String[] args) {
 }
 }
 ```
+# Compilacion
 
+Se debebe ejcutar los siguiuentes comandos:
+```bash
+mvn clean
+mvn install
+mvn package
+```
+Se generará el archivo .war en la carpeta target del directorio principal del proyecto. Este archivo es el que debemos subir al servidor de aplicaciones.
