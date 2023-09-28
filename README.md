@@ -17,8 +17,6 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class MsDemoApplication extends SpringBootServletInitializer {
 
-arduino
-Copy code
 public static void main(String[] args) {
     SpringApplication.run(SpringApplication.class, args);
 }
