@@ -34,6 +34,6 @@ Se generará el archivo .war en la carpeta target del directorio principal del p
 
 Una vez desplegado el microservicio, podra consultar los datos con la siguiente url base:
 
-"http://localhost:8080/ms-demo-0.0.1-SNAPSHOT/usuarios/"
+http://localhost:8080/ms-demo-0.0.1-SNAPSHOT/usuarios/
 
 a partir de aqui ya puede probar la aplicacion.
